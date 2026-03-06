@@ -2,7 +2,7 @@
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32u3-classic-coremw-apps.svg?color=brightgreen)
 
-![fatfs](https://img.shields.io/badge/fatfs-v0.15-blue.svg) ![usb_device](https://img.shields.io/badge/usb_device-v2.11.2-blue.svg) ![usb_host](https://img.shields.io/badge/usb_host-v3.5.1-blue.svg)
+![fatfs](https://img.shields.io/badge/fatfs-v0.15-blue.svg) ![usb_device](https://img.shields.io/badge/usb_device-v2.11.5-blue.svg) ![usb_host](https://img.shields.io/badge/usb_host-v3.5.4-blue.svg)
 
 ## Description
 
@@ -44,13 +44,13 @@ ST USB Host   | CDC_Standalone                         | Shows how to use USB ho
 ## Boards available
 
  * STM32U3
-   * [NUCLEO-U385RG-Q](https://www.st.com/en/evaluation-tools/nucleo-h7s3l8.html) RevE
+   * [NUCLEO-U385RG-Q](https://www.st.com/en/evaluation-tools/nucleo-u385rg-q.html) RevE
 
 ## Development Toolchains and Compilers
 
- * IAR Embedded Workbench for ARM (EWARM) toolchain **9.20.1** + ST-LINKV3.Patch available [here](https://github.com/STMicroelectronics/STM32CubeU3/tree/main/Utilities/PC_Software)
+ * IAR Embedded Workbench for ARM (EWARM) toolchain **9.20.4** + ST-LINKV3.Patch available [here](https://github.com/STMicroelectronics/STM32CubeU3/tree/main/Utilities/PC_Software)
  * RealView Microcontroller Development Kit (MDK-ARM) toolchain V5.39 + ST-LINKV3.Patch available [here](https://github.com/STMicroelectronics/STM32CubeU3/tree/main/Utilities/PC_Software)
- * [STM32CubeIDE **V1.18.0**](https://www.st.com/en/development-tools/stm32cubeide.html) + ST-LINKV3
+ * [STM32CubeIDE **V2.1.0**](https://www.st.com/en/development-tools/stm32cubeide.html) + ST-LINKV3
 
 
 
@@ -60,14 +60,14 @@ This package has been developed and tested using the list of components detailed
 
 Name                       |   Version
 ---------------------------|---------------
-Cortex-M CMSIS             |   V5.9.0
-STM32U3xx CMSIS            |   V1.1.0
-STM32U3xx HAL              |   V1.1.0
-BSP STM32U3xx NUCLEO       |   V1.0.0
+Cortex-M CMSIS             |   v5.9.0_fix_620_dsp_v1.10.0_nn_v3.1.0_no_doc
+STM32U3xx CMSIS            |   V1.3.0
+STM32U3xx HAL              |   V1.3.0
+BSP STM32U3xx NUCLEO       |   V1.1.0
 BSP Common                 |   V7.3.0
 FatFS                      |   R0.15
-STM32 USB Device Library   |   V2.11.3
-STM32 USB Host Library     |   V3.5.3
+STM32 USB Device Library   |   V2.11.5
+STM32 USB Host Library     |   V3.5.4
 
 ## How to use
 
