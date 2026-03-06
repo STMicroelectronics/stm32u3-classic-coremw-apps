@@ -151,7 +151,6 @@ void HAL_MspInit(void)
 */
 void HAL_UART_MspInit(UART_HandleTypeDef * huart)
 {
-  static DMA_HandleTypeDef hdma_tx;
   GPIO_InitTypeDef GPIO_InitStruct;
   RCC_PeriphCLKInitTypeDef RCC_PeriphClkInit;
 
